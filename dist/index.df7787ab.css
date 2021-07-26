@@ -33,4 +33,52 @@ body {
   color: #bc32a2;
 }
 
+.dropdown_positioner {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  left: 2px;
+  top: 0.5rem;
+  width: 21rem;
+
+  background: white;
+  box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.15);
+  color: #777;
+
+  transition: all 0.3s ease;
+  transform: perspective(400px) rotateX(-90deg);
+  transform-origin: top;
+  opacity: 0;
+}
+
+.searchbar:focus-within .dropdown {
+  transform: perspective(400px) rotateX(0);
+  opacity: 1;
+}
+
+.dropdown ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  display: block;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.dropdown li:hover {
+  background: #eee;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown strong {
+  color: #bc32a2;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=index.df7787ab.css.map */
