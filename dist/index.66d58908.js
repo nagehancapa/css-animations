@@ -21846,6 +21846,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _fullscreenMenu = require("./components/FullscreenMenu");
+var _fullscreenMenuDefault = parcelHelpers.interopDefault(_fullscreenMenu);
 var _s = $RefreshSig$();
 function App() {
     _s();
@@ -21853,16 +21855,22 @@ function App() {
     return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 7
+            lineNumber: 8
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_fullscreenMenuDefault.default, {
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
+            lineNumber: 9
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: _classnamesDefault.default("searchbar", {
             "is-open": open
         }),
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 8
+            lineNumber: 10
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("input", {
@@ -21873,69 +21881,69 @@ function App() {
         ,
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 9
+            lineNumber: 11
         },
         __self: this
     }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "dropdown_positioner",
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 14
+            lineNumber: 16
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "dropdown",
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 15
+            lineNumber: 17
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("ul", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 16
+            lineNumber: 18
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("li", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 17
+            lineNumber: 19
         },
         __self: this
     }, /*#__PURE__*/ _reactDefault.default.createElement("strong", {
-        __source: {
-            fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 18
-        },
-        __self: this
-    }, "re"), "al life CSS transition"), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
             lineNumber: 20
         },
         __self: this
-    }, /*#__PURE__*/ _reactDefault.default.createElement("strong", {
+    }, "re"), "al life CSS transition"), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 21
+            lineNumber: 22
         },
         __self: this
-    }, "Re"), "act hooks"), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("strong", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
             lineNumber: 23
         },
         __self: this
+    }, "Re"), "act hooks"), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
+            lineNumber: 25
+        },
+        __self: this
     }, "pa", /*#__PURE__*/ _reactDefault.default.createElement("strong", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 24
+            lineNumber: 26
         },
         __self: this
     }, "re"), "ntheses"))))), /*#__PURE__*/ _reactDefault.default.createElement("p", {
         __source: {
             fileName: "/home/nagehan/Code/css_transitions/src/App.jsx",
-            lineNumber: 30
+            lineNumber: 32
         },
         __self: this
     }, "Use the searchbar above")));
@@ -21951,7 +21959,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","classnames":"5aJRc"}],"367CR":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","classnames":"5aJRc","./components/FullscreenMenu":"2XSOr"}],"367CR":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22137,6 +22145,135 @@ function registerExportsForReactRefresh(module) {
     else window.classNames = classNames;
 })();
 
-},{}]},["1j6wU","2ipTU","4I8jw"], "4I8jw", "parcelRequire67dd")
+},{}],"2XSOr":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _fullscreenMenuCss = require("./FullscreenMenu.css");
+var _s = $RefreshSig$();
+function FullscreenMenu() {
+    _s();
+    const [open, setOpen] = _react.useState(false);
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, null, open && /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "FullscreenMenu",
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 10
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("ul", {
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 11
+        },
+        __self: this
+    }, [
+        "Home",
+        "About us",
+        "Portfolio",
+        "Contact"
+    ].map((text, i)=>{
+        return(/*#__PURE__*/ _reactDefault.default.createElement("li", {
+            key: i,
+            style: {
+                animationDelay: `${100 * i}ms`
+            },
+            __source: {
+                fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+                lineNumber: 14
+            },
+            __self: this
+        }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+            href: "#",
+            onClick: (e)=>{
+                e.preventDefault();
+                setOpen(false);
+            },
+            __source: {
+                fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+                lineNumber: 15
+            },
+            __self: this
+        }, text)));
+    }))), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        className: "FullscreenMenuToggler",
+        style: {
+            color: open ? "white" : "black"
+        },
+        onClick: ()=>setOpen(!open)
+        ,
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 30
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("svg", {
+        width: "2rem",
+        height: "2rem",
+        viewBox: "0 0 24 24",
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 35
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("g", {
+        stroke: "currentColor",
+        strokewidt: 2,
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 36
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("line", {
+        x1: "0",
+        y1: "4",
+        x2: "24",
+        y2: "4",
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 37
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("line", {
+        x1: "0",
+        y1: "12",
+        x2: "24",
+        y2: "12",
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 38
+        },
+        __self: this
+    }), /*#__PURE__*/ _reactDefault.default.createElement("line", {
+        x1: "0",
+        y1: "20",
+        x2: "24",
+        y2: "20",
+        __source: {
+            fileName: "/home/nagehan/Code/css_transitions/src/components/FullscreenMenu.jsx",
+            lineNumber: 39
+        },
+        __self: this
+    }))))));
+}
+exports.default = FullscreenMenu;
+_s(FullscreenMenu, "xG1TONbKtDWtdOTrXaTAsNhPg/Q=");
+_c = FullscreenMenu;
+var _c;
+$RefreshReg$(_c, "FullscreenMenu");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","./FullscreenMenu.css":"6CEQv","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"6CEQv":[function() {},{}]},["1j6wU","2ipTU","4I8jw"], "4I8jw", "parcelRequire67dd")
 
 //# sourceMappingURL=index.66d58908.js.map
